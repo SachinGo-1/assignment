@@ -60,14 +60,14 @@ header {
             box-shadow: 1px 3px 6px #e97300de;
   }
   .two-col-section .col-2 {
-    -ms-flex-preferred-size: 46%;
-        flex-basis: 46%;
+    -ms-flex-preferred-size: 46.5%;
+        flex-basis: 46.5%;
   }
   .two-col-section .flex{
     position: relative;
   }
   .two-col-section .col-2:not(:nth-child(2n + 2)) {
-    margin-right: 8%;
+    margin-right: 7%;
   }
 
   .two-col-section .flex:after {
@@ -78,6 +78,9 @@ header {
     background-color: #888888;
     top: 0;
     right: 50%;
+    -webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    transform: translatex(-50%)
   }
   .two-col-section .meta {
     margin: 70px 0px 0px;
@@ -122,7 +125,7 @@ header {
     margin-top: 50px;
   }
   .block-txt .title {
-    padding: 18px;
+    padding: 15px 20px;
     background-color: var(--primary-color);
   }
   .block-txt .title h4 {
@@ -213,6 +216,7 @@ header {
   footer p {
     color: var(--black-color);
     font-size: 12px;
+    line-height: 1.4;
   }
   
   @media (max-width: 767px) {
