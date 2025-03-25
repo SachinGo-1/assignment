@@ -99,6 +99,7 @@ header {
     margin-top: 8px;
     display: inline-block;
     position: relative;
+    font-size: 18px;
   }
   .two-col-section .meta a:after {
     position: absolute;
